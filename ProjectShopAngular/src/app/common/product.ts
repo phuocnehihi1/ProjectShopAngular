@@ -2,17 +2,18 @@ export class Product {
 
   productCode:string;
   productName:string;
-  productQuatity:number;
+  productQuatiy:number;
   productPrice:number;
   productDiscount:number;
 
-  constructor(productCode:string,productName:string,productQuatity:number,productPrice:number,productDiscount:number){
+
+
+  constructor(productCode:string,productName:string,productQuatiy:number,productPrice:number,productDiscount:number){
       this.productCode = productCode;
       this.productName = productName;
-      this.productQuatity = productQuatity;
+      this.productQuatiy = productQuatiy;
       this.productPrice = productPrice;
       this.productDiscount = productDiscount;
-
   }
 
 }

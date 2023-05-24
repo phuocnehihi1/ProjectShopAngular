@@ -9,9 +9,9 @@ import { Product } from 'src/app/common/product';
 export class ProductListComponent implements OnInit {
 
   Products: Product[] =[
-  new Product('P01','Hat'),
-  new Product('P02','T-Shirt'),
-  new Product('P03','Jearn')
+  new Product('P01','Hat',100,30,0.2),
+  new Product('P02','T-Shirt',100,50,0.15),
+  new Product('P03','Jearn',300,70,0.1)
 
   ]
 
