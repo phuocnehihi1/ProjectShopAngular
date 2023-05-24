@@ -1,17 +1,17 @@
 export class Product {
-
+  // khai báo các trường khỏi tạo
   productCode:string;
   productName:string;
-  productQuatity:number;
-  productPrice:number;
-  productDiscount:number;
 
-  constructor(productCode:string,productName:string,productQuatity:number,productPrice:number,productDiscount:number){
+
+  constructor(productCode:string,productName:string){
+
+    // khỏi tạo các trường khỏi tạo có tham số truyền váo
+
+
       this.productCode = productCode;
       this.productName = productName;
-      this.productQuatity = productQuatity;
-      this.productPrice = productPrice;
-      this.productDiscount = productDiscount;
+
 
   }
 

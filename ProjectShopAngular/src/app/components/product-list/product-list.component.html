@@ -16,12 +16,12 @@
         </tr>
       </thead>
       <tbody>
-        <tr>
-          <td scope="row">P01</td>
-          <td>Hat</td>
+        <tr *ngFor="let Product of Products">
+          <td scope="row">{{Product.productCode}}</td>
+          <td>{{Product.productName| uppercase}}</td>
           <td>100</td>
-          <td>30</td>
-          <td>10</td>
+          <td>$30</td>
+          <td>%10</td>
           <td>Edit And Delete</td>
         </tr>
 
