@@ -14,7 +14,9 @@ export class ProductListComponent implements OnInit {
   new Product('P03','Jearn',300,70,0.1)
 
   ]
-
+  changestar(message:string){
+    console.log(`message:${message}`)
+  }
   constructor() { }
 
   ngOnInit() {

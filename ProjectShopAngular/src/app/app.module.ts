@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { ProductListComponent } from './components/product-list/product-list.component';
 import { ProductdetailComponent } from './components/productdetail/productdetail.component';
 import { FormsModule } from '@angular/forms';
+import { StarComponent } from './components/star/star.component';
 
 
 
@@ -13,7 +14,8 @@ import { FormsModule } from '@angular/forms';
   declarations: [
     AppComponent,
     ProductListComponent,
-    ProductdetailComponent
+    ProductdetailComponent,
+    StarComponent
    ],
   imports: [
     BrowserModule,

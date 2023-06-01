@@ -5,6 +5,7 @@ export class Product {
   productQuatiy:number;
   productPrice:number;
   productDiscount:number;
+  productStar:number = 0
 
 
 

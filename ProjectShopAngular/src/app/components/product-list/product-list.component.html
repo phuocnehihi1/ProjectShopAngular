@@ -13,6 +13,7 @@
           <th>Product Quatiy</th>
           <th>Product Price $</th>
           <th>Product Discount %</th>
+          <th>Rating</th>
           <th>Buttom Event</th>
         </tr>
       </thead>
@@ -23,6 +24,7 @@
           <td>{{product.productDiscount}}</td>
           <td>{{product.productPrice | currency:'USD':true:'1.2-2'}}</td>
           <td>{{product.productDiscount | percent:'1.0-0'}}</td>
+          <td><app-star [rting]="4" (ratingClick)="changestar($event)"></app-star></td>
           <td>Edit And Delete</td>
         </tr>
 
